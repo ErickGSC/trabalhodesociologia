@@ -37,3 +37,16 @@ function generateRandomQuestion() {
   const randomQuestion = questions.splice(randomIndex, 1)[0];
   questionDisplay.textContent = randomQuestion;
 }
+
+function generateRandomQuestion() {
+  if (questions.length === 0) {
+    questionDisplay.textContent = "Parabéns, você respondeu a todas as perguntas!";
+    generateBtn.disabled = true; // Desativa o botão quando todas as perguntas foram respondidas.
+    return;
+  }
+
+  const randomIndex = Math.floor(Math.random() * questions.length);
+  const randomQuestion = questions.splice(randomIndex, 1)[0];
+  questionDisplay.textContent = randomQuestion;
+}
+
