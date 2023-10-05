@@ -19,7 +19,7 @@ const questions = [
   "Como você equilibra o reconhecimento das diferenças raciais com o desejo de tratar todos de maneira igual?",
   "Você já teve dificuldades para se conectar com alguém devido a diferenças culturais ou raciais? Como superou isso?",
   "O que você acredita que pode ser feito para melhorar a educação sobre racismo nas escolas?",
-  "Você já sofreu algum tipo de preconceito racial?",
+  "Você já sofreu algum tipo de preconceito racial?"
 ];
 
 const generateBtn = document.getElementById("generateBtn");
